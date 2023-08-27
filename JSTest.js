@@ -29,7 +29,7 @@ function mintNFT (brand, model, color, year) {
 // and print their metadata with console.log()
 function listNFTs () {
     for( i=0;i< NFT.length;i++){
-        console.log("Car Brand: "+NFT[i].brand);
+        console.log("\nCar Brand: "+NFT[i].brand);
         console.log("Car Model: "+NFT[i].model);
         console.log("Color: "+NFT[i].color);
         console.log("Year: "+NFT[i].year);
@@ -39,10 +39,11 @@ function listNFTs () {
 
 // print the total number of NFTs we have minted to the console
 function getTotalSupply() {
-    console.log(NFT.length);
+    console.log("\n"+ NFT.length);
 }
 
 // call your functions below this line
 mintNFT("Tesla","Model X","Black","2023");
+mintNFT("BMW", "i8", "Blue", "2022");
 listNFTs();
 getTotalSupply();
