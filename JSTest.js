@@ -39,8 +39,15 @@ function listNFTs () {
 
 // print the total number of NFTs we have minted to the console
 function getTotalSupply() {
-    console.log("\n"+ NFT.length);
+    console.log("\nTotal count of minted NFTs: "+ NFT.length);
 }
+
+// call your functions below this line
+mintNFT("Tesla","Model X","Black","2023");
+mintNFT("BMW", "i8", "Blue", "2022");
+listNFTs();
+getTotalSupply();
+
 
 // call your functions below this line
 mintNFT("Tesla","Model X","Black","2023");
