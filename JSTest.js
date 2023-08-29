@@ -49,8 +49,3 @@ listNFTs();
 getTotalSupply();
 
 
-// call your functions below this line
-mintNFT("Tesla","Model X","Black","2023");
-mintNFT("BMW", "i8", "Blue", "2022");
-listNFTs();
-getTotalSupply();
